@@ -83,6 +83,30 @@ article {
     width: 30%;
 }
 
+#left2 {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 30%;
+}
+
+#center2 {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 30%;
+}
+
+#right2 {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 30%;
+}
+
 footer {
     background-color: #FF957E;
     border: 1px black solid;
