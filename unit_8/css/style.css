@@ -1,0 +1,389 @@
+body {
+    font-family: Arial, Sans-serif;
+    font-size: 16px;
+    background-color: #000000;
+}
+
+header {
+    background-color: #000000;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+nav {
+    padding: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+    padding-top: 1.4em;
+    padding-left: .5em;
+}
+
+a:hover {
+    color: #00aeef;
+    background-color: none;
+    text-decoration: none;
+    display: block;
+    float: right;
+    padding-top: 1.5em;
+    padding-left: .5em;
+
+}
+
+#logo { 
+    background: none;
+    float:left;
+    border: none;
+}
+
+aside {
+    background-color: #FEFEFE;
+    padding: 5em;
+    text-align: center;
+}
+
+article {
+    background-color: #E89C6C;
+    padding: 30px;
+    text-align: center;
+}
+
+#hero {
+    align-content: center;
+    width: 50%;
+}
+
+#three_column {
+    background-color: #FFB7CF;
+    padding: 1em;
+}
+
+#left {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    width: 33.33%;
+}
+
+#center {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    width: 33.33%;
+}
+
+#right {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    width: 33.33%;
+}
+
+#left2 {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 33.33%;
+}
+
+#center2 {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 33.33%;
+}
+
+#right2 {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 33.33%;
+}
+
+footer {
+    background-color: #000000;
+    padding: 1em;
+}
+
+div {
+    background-color: #000000;
+    text-align: center;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+@media screen and (max-width: 1028px){
+
+#left {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    width: 33.33%;
+}
+
+#center {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    width: 33.33%;
+}
+
+#right {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    width: 33.33%;
+}
+
+#left2 {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 33.33%;
+}
+
+#center2 {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 33.33%;
+}
+
+#right2 {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 33.33%;
+}
+}
+
+
+
+@media screen and (max-width: 768px){
+
+#left {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 33.33%;
+}
+
+#center {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 33.33%;
+}
+
+#right {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    width: 33.33%;
+}
+
+#left2 {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    width: 33.33%;
+}
+
+#center2 {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    width: 33.33%;
+}
+
+#right2 {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    width: 33.33%;
+}
+}
+
+@media screen and (max-width: 500px){
+
+nav {
+    padding: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    float: right;
+    padding-top: 1.4em;
+    padding-left: .5em;
+}
+
+a:hover {
+    color: #00aeef;
+    background-color: none;
+    text-decoration: none;
+    display: inline;
+    float: right;
+    padding-top: 1.5em;
+    padding-left: .5em;
+
+#left {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 33.33%;
+}
+
+#center {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 33.33%;
+}
+
+#right {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 33.33%;
+}
+
+#left2 {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    width: 33.33%;
+}
+
+#center2 {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    width: 33.33%;
+}
+
+#right2 {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    width: 33.33%;
+}
+}
+
+@media screen and (max-width: 444px){
+
+#logo { 
+    background: none;
+    border: none;
+    align-self: center;
+}
+
+nav {
+    padding: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    float: right;
+    padding-top: 1.4em;
+    padding-left: .5em;
+}
+
+a:hover {
+    color: #00aeef;
+    background-color: none;
+    text-decoration: none;
+    display: inline;
+    float: right;
+    padding-top: 1.5em;
+    padding-left: .5em;
+}
+
+#left {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 2.75em;
+    padding-bottom: 2.75em;
+    width: 33.33%;
+}
+
+#center {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 2.75em;
+    padding-bottom: 2.75em;
+    width: 33.33%;
+}
+
+#right {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 2.75em;
+    padding-bottom: 2.75em;
+    width: 33.33%;
+}
+
+#left2 {
+    background-color: #E582A2;
+    float: left;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    width: 33.33%;
+}
+
+#center2 {
+    background-color: #E55B88;
+    float: left;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    width: 33.33%;
+}
+
+#right2 {
+    background-color: #ff6F99;
+    float: left;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    width: 33.33%;
+}
+}
